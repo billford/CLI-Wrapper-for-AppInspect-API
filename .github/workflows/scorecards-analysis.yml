@@ -4,8 +4,7 @@ on:
   branch_protection_rule:
   schedule:
     - cron: '55 13 * * 2'
-  #env:
-  #  - GITHUB_AUTH_TOKEN: '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'
+  
   push:
     branches: [ main ]
 
