@@ -3,7 +3,9 @@ on:
   # Only the default branch is supported.
   branch_protection_rule:
   schedule:
-    - cron: '01 11 * * 1'
+    - cron: '55 13 * * 2'
+  env:
+    - GITHUB_AUTH_TOKEN: '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'
   push:
     branches: [ main ]
 
